@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>add products</title>
+
+    <link rel="stylesheet" href="addpr.css">
+       <script src="validpr.js"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+  <div class="c1">
+      <div class="c2">
+          <div class="c3">
+              <h2 class="c4"><img src=CREDO.jpg height="150"></h2>
+
+          </div>
+
+          <div class="menu">
+
+              <ul>
+
+                 <li><a href="home.html">HOME</a></li>
+                    <li><a href="addproducts.html">ADD_PRODUCTS</a></li>
+                    <li><a href="viewproducts.jsp">VIEW_PRODUCTS</a></li>
+                    <li><a href="fraud.jsp">FRAUD_USERS</a></li>
+                    <li><a href="login.html">LOGOUT</a></li>
+                  
+              </ul>
+          </div>
+
+
+      
+    </div>
+      <div class="content">
+    <div class="form">
+        <h1>UPLOAD PRODUCTS</h1>
+        <form action="uploadaddpr.jsp" method="post">
+        <label>Product name:</label>
+     <input type="text" name="t1" size="5"/>
+        <br>
+        <label>Product id:</label>
+     <input type="text" name="t0" size="5"/>
+        <br>
+        <label  >Quantity:</label>
+        <input type="text" id="pass" name="t2">
+          <br>
+          
+          <label>Description:</label>
+          <textarea cols="20" rows="2" name="t3" id="desc">
+          </textarea>
+          <br>
+          <label >Price:</label>
+          <input type="text" id="price" name="t4">
+            <br>
+            <!--<label>Image:</label>
+            <input type="file" id="imageFile" name="t5" accept="image/*" >-->
+            <input type="submit" name="up" value="UPLOAD" onclick="val()">
+            </form>
+            <video width = "300" height = "200" loop muted autoplay="autoplay">
+               <source src = "cr.mp4" type = "video/mp4">
+
+</div>
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,166 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 28, 2022, 8:23:04 PM
+    Author     : bsojh
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jul 27, 2022, 9:14:30 PM
+    Author     : bsojh
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.c1{
+    width: 100%;
+    background: url(img3.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+}
+
+.c2{
+    width: 1200px;
+    height: 80px;
+
+}
+
+.c3{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.c4{
+    color: #66FCF1;
+    font-size: 65px;
+    font-family: Leelawadee UI Semilight;
+    padding-left: 20px;
+    padding-top: 4px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-top: 20px;
+     
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 72px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #00ffff;
+}
+
+
+    .form{
+    width: 350px;
+    height: 580px;
+    color: #fff;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position:absolute;
+    top: 101px;
+    left: 770px;
+    transform: translate(0%,-5%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form h1{
+    width: 300px;
+    font-family:sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: #00203FFF;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+
+    margin-bottom: 20px;
+}
+
+.form p{
+    padding-bottom: -15px;
+}
+
+.form input{
+  width: 200px;
+   height: 20px;
+   background: transparent;
+   border-bottom: 3px solid #00203FFF;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   color: 	#00ffff;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+
+}
+
+.form input[type="submit"]
+{ width: 300px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.form input[type="submit"]:hover{
+  background: #6495ED;
+   color: #fff;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
